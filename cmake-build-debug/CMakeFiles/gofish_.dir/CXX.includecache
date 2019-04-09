@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rnoel/OneDrive/UT/Spring 2019/EE312/Lab/Assignment 6/gofish-/card.h
+iostream
+-
+string
+-
+
+C:/Users/rnoel/OneDrive/UT/Spring 2019/EE312/Lab/Assignment 6/gofish-/player.cpp
+player.h
+C:/Users/rnoel/OneDrive/UT/Spring 2019/EE312/Lab/Assignment 6/gofish-/player.h
+
+C:/Users/rnoel/OneDrive/UT/Spring 2019/EE312/Lab/Assignment 6/gofish-/player.h
+iostream
+-
+string
+-
+vector
+-
+card.h
+C:/Users/rnoel/OneDrive/UT/Spring 2019/EE312/Lab/Assignment 6/gofish-/card.h
+

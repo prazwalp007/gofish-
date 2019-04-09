@@ -136,9 +136,10 @@ Deck::Deck(){
 // shuffle the deck, all 52 cards present
 void Deck:: shuffle(){
 
-    for (int i = 0; i < SIZE; i++){
+    for (int i = 0; i < (SIZE*7); i++){
         int random = rand()%SIZE;
         swap(myCards[i], myCards[random]);
+        //swap(myCards[i], myCards[random]);
     }
 
     for (int i = 0; i < myIndex; i++){

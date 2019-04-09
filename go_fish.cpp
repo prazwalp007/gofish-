@@ -10,18 +10,20 @@ using namespace std;
 
 
 // PROTOTYPES for functions used by this demonstration program:
-//void dealHand(Deck &d, Player &p, int numCards);
+void dealHand(Deck &d, Player &p, int numCards);
 
 
 
 
 int main( )
 {
+    /*
     Deck d;
     Card p1 = d.dealCard();
     Card p2 = d.dealCard();
     cout<<"First dealt Card is "<<p1.toString()<<endl;
     cout<<"Second dealt Card is "<<p2.toString()<<endl;
+    */
 
     /*
     Card c1(10, Card::clubs);
@@ -39,7 +41,7 @@ int main( )
 
 
 
-/*
+
     int numCards = 5;
 
     Player p1("Joe");
@@ -55,17 +57,17 @@ int main( )
     cout << p2.getName() <<" has : " << p2.showHand() << endl;
 
     return EXIT_SUCCESS;
-    */
+
 
 }
 
 
-/*
+
 void dealHand(Deck &d, Player &p, int numCards)
 {
     for (int i=0; i < numCards; i++)
         p.addCard(d.dealCard());
-}*/
+}
 
    
 
