@@ -14,23 +14,27 @@ void Player:: bookCards(Card c1, Card c2){
     myBook.push_back(c1);
     myBook.push_back(c2);
 
-    for(vector<Card>::iterator it = myHand.begin(); it != myHand.end(); it++){
+
+
+
+    for(vector<Card>::const_iterator it = myHand.begin(); it != myHand.end(); it++){
         if(*it == c1){
-            it = myHand.erase(it);
+           it = myHand.erase(it);
         }
         if(*it == c2){
-            it = myHand.erase(it);
+           it = myHand.erase(it);
         }
     }
+
+
 }
 
 bool Player:: checkHandForBook(Card &c1, Card &c2){
     for(vector<Card>::iterator it1 = myHand.begin(); it1 != myHand.end(); it1++){
-        for(vector<Card>::iterator it2 = myHand.end(); it2 != it1; it2--){
+        for(vector<Card>::iterator it2 = it1+1; it2 != myHand.end(); it2++){
             if(it1->getRank() == it2->getRank()){
                 c1 = *it1;
                 c2 = *it2;
-                bookCards(c1,c2);
                 return true;
             }
         }
@@ -66,11 +70,11 @@ bool Player:: cardInHand(Card c) const{
 
 Card Player:: removeCardFromHand(Card c){
     for(vector<Card>::iterator it = myHand.begin(); it != myHand.end(); it++){
-        if(it->getRank() == c.getRank()){
+      //  if(it->getRank() == c.getRank()){
             Card c1 = *it;
             it = myHand.erase(it);
             return c1;
-        }
+      //  }
     }
 }
 
@@ -78,16 +82,18 @@ Card Player:: removeCardFromHand(Card c){
 string Player :: showHand() const{
     string hands;
     for (vector<Card>::const_iterator it = myHand.begin(); it != myHand.end(); it++){
-        hands = hands + it->toString() + " ";
+        //hands = hands + it->toString() + " ";
+        cout << it->toString()<<" ";
 
     }
+    cout << endl;
 }
 
 string Player :: showBooks() const{
     string books;
     for (vector<Card>::const_iterator it = myBook.begin(); it != myBook.end(); it++){
-           books = books + it->toString() + " ";
-
+         //  books = books + it->toString() + " ";
+        cout << it->toString()<<" ";
     }
 
 }

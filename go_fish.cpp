@@ -10,20 +10,51 @@ using namespace std;
 
 
 // PROTOTYPES for functions used by this demonstration program:
-void dealHand(Deck &d, Player &p, int numCards);
+//void dealHand(Deck &d, Player &p, int numCards);
 
 
 
 
 int main( )
 {
-    /*
+
     Deck d;
-    Card p1 = d.dealCard();
-    Card p2 = d.dealCard();
-    cout<<"First dealt Card is "<<p1.toString()<<endl;
-    cout<<"Second dealt Card is "<<p2.toString()<<endl;
-    */
+   // Card p1 = d.dealCard();
+   // Card p2 = d.dealCard();
+   // cout<<"First dealt Card is "<<p1.toString()<<endl;
+   // cout<<"Second dealt Card is "<<p2.toString()<<endl;
+
+    d.shuffle();
+    Player s1("Shishir");
+    Player s2 ("Sakar");
+
+    Card c1, c2;
+
+    for (int i = 0; i < 8; i ++){
+       Card c = d.dealCard();
+       s1.addCard(c);
+      // s2.addCard(c2);
+    }
+
+    s1.showHand();
+   // s2.showHand();
+
+
+    //Check if s1 has any pair when the card is dealt for the first time
+    if (s1.checkHandForBook(c1, c2)){
+       // cout << endl<< c1.toString()<<" "<< c2.toString();
+        s1.bookCards(c1, c2);
+    }
+    s1.showBooks();
+   // s1.showHand();
+
+
+
+
+
+
+
+
 
     /*
     Card c1(10, Card::clubs);
@@ -40,7 +71,7 @@ int main( )
 
 
 
-
+/*
 
     int numCards = 5;
 
@@ -67,6 +98,8 @@ void dealHand(Deck &d, Player &p, int numCards)
 {
     for (int i=0; i < numCards; i++)
         p.addCard(d.dealCard());
+        */
+
 }
 
    

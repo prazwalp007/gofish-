@@ -8,7 +8,6 @@ include_directories(.)
 add_executable(gofish_
         card.cpp
         card.h
-        CMakeLists.txt
         deck.cpp
         deck.h
         go_fish.cpp
