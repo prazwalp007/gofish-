@@ -14,17 +14,8 @@ void Player:: bookCards(Card c1, Card c2){
     myBook.push_back(c1);
     myBook.push_back(c2);
 
-
-
-
-    for(vector<Card>::const_iterator it = myHand.begin(); it != myHand.end(); it++){
-        if(*it == c1){
-           it = myHand.erase(it);
-        }
-        if(*it == c2){
-           it = myHand.erase(it);
-        }
-    }
+    removeCardFromHand(c1);
+    removeCardFromHand(c2);
 
 
 }
@@ -71,22 +62,25 @@ bool Player:: cardInHand(Card c) const{
 Card Player:: removeCardFromHand(Card c){
     for(vector<Card>::iterator it = myHand.begin(); it != myHand.end(); it++){
       //  if(it->getRank() == c.getRank()){
+        if (*it == c) {
             Card c1 = *it;
             it = myHand.erase(it);
             return c1;
+        }
       //  }
     }
 }
 
 
 string Player :: showHand() const{
-    string hands;
+   //string hands;
     for (vector<Card>::const_iterator it = myHand.begin(); it != myHand.end(); it++){
         //hands = hands + it->toString() + " ";
         cout << it->toString()<<" ";
 
     }
     cout << endl;
+    return "0";
 }
 
 string Player :: showBooks() const{
@@ -95,6 +89,8 @@ string Player :: showBooks() const{
          //  books = books + it->toString() + " ";
         cout << it->toString()<<" ";
     }
+    cout << endl;
+    return "0";
 
 }
 

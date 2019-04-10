@@ -30,14 +30,15 @@ int main( )
 
     Card c1, c2;
 
-    for (int i = 0; i < 8; i ++){
+    for (int i = 0; i < 7; i ++){
        Card c = d.dealCard();
        s1.addCard(c);
       // s2.addCard(c2);
     }
 
     s1.showHand();
-   // s2.showHand();
+    s1.showBooks();
+
 
 
     //Check if s1 has any pair when the card is dealt for the first time
@@ -46,7 +47,8 @@ int main( )
         s1.bookCards(c1, c2);
     }
     s1.showBooks();
-   // s1.showHand();
+    s1.showHand();
+
 
 
 
