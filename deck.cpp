@@ -8,7 +8,7 @@ Deck::Deck(){
 
     //seed for random number generator
     srand(time(0));
-    myIndex = -1;
+    myIndex = 0;
     int num = 0;
 
     for (int i = 0; i < sizeof(Card::Suit); i++ ){
@@ -18,11 +18,6 @@ Deck::Deck(){
             num++;
         }
     }
-
-    for (int i = 0; i < SIZE; i++){
-       cout <<  myCards[i].toString()<<endl;
-    }
-
 }
 
 // shuffle the deck, all 52 cards present
@@ -31,7 +26,6 @@ void Deck:: shuffle(){
     for (int i = 0; i < (SIZE); i++){
         int random = rand()%SIZE;
         swap(myCards[i], myCards[random]);
-        //swap(myCards[i], myCards[random]);
     }
 
     for (int i = 0; i < SIZE; i++){
@@ -41,12 +35,13 @@ void Deck:: shuffle(){
 }
 // get a card, after 52 are dealt, fail
 Card Deck :: dealCard(){
+    Card temp = myCards[myIndex];
     myIndex = myIndex + 1;
-    return myCards[myIndex];
+    return temp;
 
 }
 
 // # cards left in the deck
 int Deck :: size() const{
-    return SIZE - (myIndex + 1);
+    return (SIZE - myIndex);
 }
