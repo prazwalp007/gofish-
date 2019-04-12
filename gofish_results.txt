@@ -1,0 +1,398 @@
+*****************************
+Jane Book
+
+Jane Hand
+8s 5c 9d Qh 3s Qd Qs 
+*****************************
+*****************************
+Joe Book
+
+Joe Hand
+2s Js 8d 2h 10h As Kh 
+*****************************
+Jane asks - Do you have any 9 ? 
+Joe Says - Go Fish!
+Jane draws  7h
+*****************************
+Jane Book
+Qh Qd 
+Jane Hand
+8s 5c 9d 3s Qs 7h 
+*****************************
+Joe asks - Do you have any 10 ? 
+Jane Says - Go Fish!
+Joe draws  4h
+*****************************
+Joe Book
+2s 2h 
+Joe Hand
+Js 8d 10h As Kh 4h 
+*****************************
+Jane asks - Do you have any 7 ? 
+Joe Says - Go Fish!
+Jane draws  6h
+*****************************
+Jane Book
+Qh Qd 
+Jane Hand
+8s 5c 9d 3s Qs 7h 6h 
+*****************************
+Joe asks - Do you have any A ? 
+Jane Says - Go Fish!
+Joe draws  6c
+*****************************
+Joe Book
+2s 2h 
+Joe Hand
+Js 8d 10h As Kh 4h 6c 
+*****************************
+Jane asks - Do you have any 6 ? 
+Joe - Yes, I have a 6
+Jane books 6
+Jane asks - Do you have any 8 ? 
+Joe - Yes, I have a 8
+Jane books 8
+Jane asks - Do you have any Q ? 
+Joe Says - Go Fish!
+Jane draws  2d
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 
+Jane Hand
+5c 9d 3s Qs 7h 2d 
+*****************************
+Joe asks - Do you have any 10 ? 
+Jane Says - Go Fish!
+Joe draws  5s
+*****************************
+Joe Book
+2s 2h 
+Joe Hand
+Js 10h As Kh 4h 5s 
+*****************************
+Jane asks - Do you have any 3 ? 
+Joe Says - Go Fish!
+Jane draws  9h
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 
+Jane Hand
+5c 3s Qs 7h 2d 
+*****************************
+Joe asks - Do you have any K ? 
+Jane Says - Go Fish!
+Joe draws  3d
+*****************************
+Joe Book
+2s 2h 
+Joe Hand
+Js 10h As Kh 4h 5s 3d 
+*****************************
+Jane asks - Do you have any Q ? 
+Joe Says - Go Fish!
+Jane draws  9c
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 
+Jane Hand
+5c 3s Qs 7h 2d 9c 
+*****************************
+Joe asks - Do you have any 3 ? 
+Jane - Yes, I have a 3
+Joe books 3
+Joe asks - Do you have any 10 ? 
+Jane Says - Go Fish!
+Joe draws  Ks
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 
+Joe Hand
+Js 10h As 4h 5s 
+*****************************
+Jane asks - Do you have any Q ? 
+Joe Says - Go Fish!
+Jane draws  3h
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 
+Jane Hand
+5c Qs 7h 2d 9c 3h 
+*****************************
+Joe asks - Do you have any 10 ? 
+Jane Says - Go Fish!
+Joe draws  5d
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d 
+Joe Hand
+Js 10h As 4h 
+*****************************
+Jane asks - Do you have any 5 ? 
+Joe Says - Go Fish!
+Jane draws  Kd
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 
+Jane Hand
+5c Qs 7h 2d 9c 3h Kd 
+*****************************
+Joe asks - Do you have any 4 ? 
+Jane Says - Go Fish!
+Joe draws  6s
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d 
+Joe Hand
+Js 10h As 4h 6s 
+*****************************
+Jane asks - Do you have any 5 ? 
+Joe Says - Go Fish!
+Jane draws  7s
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 
+Jane Hand
+5c Qs 2d 9c 3h Kd 
+*****************************
+Joe asks - Do you have any 4 ? 
+Jane Says - Go Fish!
+Joe draws  Jc
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 
+Joe Hand
+10h As 4h 6s 
+*****************************
+Jane asks - Do you have any 3 ? 
+Joe Says - Go Fish!
+Jane draws  5h
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h 
+Jane Hand
+Qs 2d 9c 3h Kd 
+*****************************
+Joe asks - Do you have any A ? 
+Jane Says - Go Fish!
+Joe draws  8h
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 
+Joe Hand
+10h As 4h 6s 8h 
+*****************************
+Jane asks - Do you have any 3 ? 
+Joe Says - Go Fish!
+Jane draws  4d
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h 
+Jane Hand
+Qs 2d 9c 3h Kd 4d 
+*****************************
+Joe asks - Do you have any 4 ? 
+Jane - Yes, I have a 4
+Joe books 4
+Joe asks - Do you have any 8 ? 
+Jane Says - Go Fish!
+Joe draws  10d
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 
+Joe Hand
+As 6s 8h 
+*****************************
+Jane asks - Do you have any K ? 
+Joe Says - Go Fish!
+Jane draws  Jd
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h 
+Jane Hand
+Qs 2d 9c 3h Kd Jd 
+*****************************
+Joe asks - Do you have any 6 ? 
+Jane Says - Go Fish!
+Joe draws  9s
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 
+Joe Hand
+As 6s 8h 9s 
+*****************************
+Jane asks - Do you have any 2 ? 
+Joe Says - Go Fish!
+Jane draws  Jh
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh 
+Jane Hand
+Qs 2d 9c 3h Kd 
+*****************************
+Joe asks - Do you have any 9 ? 
+Jane - Yes, I have a 9
+Joe books 9
+Joe asks - Do you have any 6 ? 
+Jane Says - Go Fish!
+Joe draws  8c
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 9s 9c 8h 8c 
+Joe Hand
+As 6s 
+*****************************
+Jane asks - Do you have any Q ? 
+Joe Says - Go Fish!
+Jane draws  Ac
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh 
+Jane Hand
+Qs 2d 3h Kd Ac 
+*****************************
+Joe asks - Do you have any A ? 
+Jane - Yes, I have a A
+Joe books A
+Joe asks - Do you have any 6 ? 
+Jane Says - Go Fish!
+Joe draws  10s
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 9s 9c 8h 8c As Ac 
+Joe Hand
+6s 10s 
+*****************************
+Jane asks - Do you have any 2 ? 
+Joe Says - Go Fish!
+Jane draws  4s
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh 
+Jane Hand
+Qs 2d 3h Kd 4s 
+*****************************
+Joe asks - Do you have any 10 ? 
+Jane Says - Go Fish!
+Joe draws  3c
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 9s 9c 8h 8c As Ac 
+Joe Hand
+6s 10s 3c 
+*****************************
+Jane asks - Do you have any Q ? 
+Joe Says - Go Fish!
+Jane draws  6d
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh 
+Jane Hand
+Qs 2d 3h Kd 4s 6d 
+*****************************
+Joe asks - Do you have any 10 ? 
+Jane Says - Go Fish!
+Joe draws  10c
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 9s 9c 8h 8c As Ac 10s 10c 
+Joe Hand
+6s 3c 
+*****************************
+Jane asks - Do you have any Q ? 
+Joe Says - Go Fish!
+Jane draws  7d
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh 
+Jane Hand
+Qs 2d 3h Kd 4s 6d 7d 
+*****************************
+Joe asks - Do you have any 6 ? 
+Jane - Yes, I have a 6
+Joe books 6
+Joe asks - Do you have any 3 ? 
+Jane - Yes, I have a 3
+Joe books 3
+Joe is out of card so player draws Ad
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 9s 9c 8h 8c As Ac 10s 10c 6s 6d 3c 3h 
+Joe Hand
+Ad 
+*****************************
+Jane asks - Do you have any Q ? 
+Joe Says - Go Fish!
+Jane draws  Ah
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh 
+Jane Hand
+Qs 2d Kd 4s 7d Ah 
+*****************************
+Joe asks - Do you have any A ? 
+Jane - Yes, I have a A
+Joe books A
+Joe is out of card so player draws Kc
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 9s 9c 8h 8c As Ac 10s 10c 6s 6d 3c 3h Ad Ah 
+Joe Hand
+Kc 
+*****************************
+Jane asks - Do you have any Q ? 
+Joe Says - Go Fish!
+Jane draws  Qc
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh Qs Qc 
+Jane Hand
+2d Kd 4s 7d 
+*****************************
+Joe asks - Do you have any K ? 
+Jane - Yes, I have a K
+Joe books K
+Joe is out of card so player draws 2c
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 9s 9c 8h 8c As Ac 10s 10c 6s 6d 3c 3h Ad Ah Kc Kd 
+Joe Hand
+2c 
+*****************************
+Jane asks - Do you have any 7 ? 
+Joe Says - Go Fish!
+Jane draws  4c
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh Qs Qc 4s 4c 
+Jane Hand
+2d 7d 
+*****************************
+Joe asks - Do you have any 2 ? 
+Jane - Yes, I have a 2
+Joe books 2
+Joe is out of card so player draws 7c
+*****************************
+Joe Book
+2s 2h 3d 3s Kh Ks 5s 5d Js Jc 4h 4d 10h 10d 9s 9c 8h 8c As Ac 10s 10c 6s 6d 3c 3h Ad Ah Kc Kd 2c 2d 
+Joe Hand
+7c 
+*****************************
+Jane asks - Do you have any 7 ? 
+Joe - Yes, I have a 7
+Jane books 7
+*****************************
+Jane Book
+Qh Qd 6h 6c 8s 8d 9d 9h 7h 7s 5c 5h Jd Jh Qs Qc 4s 4c 7d 7c 
+Jane Hand
+
+*****************************
+      GAME SCORES
+
+Books of Jane
+Number of books of Jane - 10
+
+Books of Joe
+Number of books of Joe - 16
+
+The winner is Joe
+*****************************
