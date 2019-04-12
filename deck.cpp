@@ -28,10 +28,6 @@ void Deck:: shuffle(){
         swap(myCards[i], myCards[random]);
     }
 
-    for (int i = 0; i < SIZE; i++){
-        cout << myCards[i].toString()<<endl;
-    }
-
 }
 // get a card, after 52 are dealt, fail
 Card Deck :: dealCard(){

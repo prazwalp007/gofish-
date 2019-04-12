@@ -83,24 +83,24 @@ Card Player:: removeCardFromHand(Card c){
 
 
 string Player :: showHand() const{
-   //string hands;
+   string hands;
     for (vector<Card>::const_iterator it = myHand.begin(); it != myHand.end(); it++){
-        //hands = hands + it->toString() + " ";
-        cout << it->toString()<<" ";
+        hands = hands + it->toString() + " ";
+        //cout << it->toString()<<" ";
 
     }
     cout << endl;
-    return "0";
+    return hands;
 }
 
 string Player :: showBooks() const{
     string books;
     for (vector<Card>::const_iterator it = myBook.begin(); it != myBook.end(); it++){
-         //  books = books + it->toString() + " ";
-        cout << it->toString()<<" ";
+        books = books + it->toString() + " ";
+        //cout << it->toString()<<" ";
     }
     cout << endl;
-    return "0";
+    return books;
 
 }
 

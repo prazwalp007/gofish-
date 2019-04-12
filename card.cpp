@@ -20,34 +20,7 @@ Card:: Card(int rank, Suit s){
 }
 // return string version e.g. Ac 4h Js
 string Card:: toString() const{
-
-    string cardType;
-
-    //check rank
-    if (myRank == 1){
-        cardType = "A";
-    }else if (myRank == 11){
-        cardType = "J";
-    }else if (myRank == 12){
-        cardType = "Q";
-    }else if (myRank == 13) {
-        cardType = "K";
-    }else{
-        cardType = to_string(myRank);
-    }
-
-    //check suit
-    if (mySuit == spades){
-        cardType  = cardType + "s";
-    }else if (mySuit == hearts){
-        cardType  = cardType + "h";
-    }else if (mySuit == diamonds){
-        cardType  = cardType + "d";
-    }else if (mySuit == clubs){
-        cardType = cardType + "c";
-    }
-   // cout<<cardType<<endl;
-    return cardType;
+    return (rankString(myRank)+suitString(mySuit));
 }
 
 // true if suit same as c
@@ -85,19 +58,47 @@ string Card :: suitString(Suit s) const{
 string Card :: rankString(int r) const{
     //check rank
     string rankType;
-
-    if (r == 1){
-        rankType = "A";
-    }else if (r == 11){
-        rankType = "J";
-    }else if (r == 12){
-        rankType = "Q";
-    }else if (r == 13) {
-        rankType = "K";
-    }else{
-        rankType = to_string(r);
+    switch (r) {
+        case 1:
+            rankType = "A";
+            break;
+        case 2:
+            rankType = "2";
+            break;
+        case 3:
+            rankType = "3";
+            break;
+        case 4:
+            rankType = "4";
+            break;
+        case 5:
+            rankType = "5";
+            break;
+        case 6:
+            rankType = "6";
+            break;
+        case 7:
+            rankType = "7";
+            break;
+        case 8:
+            rankType = "8";
+            break;
+        case 9:
+            rankType = "9";
+            break;
+        case 10:
+            rankType = "10";
+            break;
+        case 11:
+            rankType = "J";
+            break;
+        case 12:
+            rankType = "Q";
+            break;
+        case 13:
+            rankType = "K";
+            break;
     }
-
     return rankType;
 
 }

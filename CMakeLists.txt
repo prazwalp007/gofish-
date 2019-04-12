@@ -12,4 +12,4 @@ add_executable(gofish_
         deck.h
         go_fish.cpp
         player.cpp
-        player.h)
+        player.h deck.h)
